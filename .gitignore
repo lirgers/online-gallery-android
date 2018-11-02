@@ -1,4 +1,6 @@
 android/
 ios/
 node_modules/
-
+my-release-key.keystore
+.env
+.vscode/launch.json
