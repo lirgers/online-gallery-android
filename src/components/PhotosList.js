@@ -40,21 +40,6 @@ const styles = StyleSheet.create({
     itemInvisible: {
         backgroundColor: 'transparent'
     },
-    header: {
-        height: 60,
-        justifyContent: 'center',
-        backgroundColor: '#9999ff',
-        paddingLeft: 30,
-        shadowColor: 'black',
-        shadowOffset: {
-            width: 0,
-            height: 2
-        },
-        shadowOpacity: 0.2,
-        elevation: 2,
-        position: 'relative',
-        flexDirection: 'row'
-    },
     spinner: {
         justifyContent: 'center',
         alignItems: 'center',

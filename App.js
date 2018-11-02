@@ -1,8 +1,8 @@
 import React, { Component } from 'react'
-import { Platform, StyleSheet, Text, View } from 'react-native'
 import { Provider } from 'react-redux'
 import { createStore, applyMiddleware } from 'redux'
 import thunk from 'redux-thunk'
+
 import reducer from './src/Reducer'
 import Navigator from './src/components/Navigator'
 import Actions from './src/Actions'
